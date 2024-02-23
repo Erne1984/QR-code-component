@@ -1,12 +1,17 @@
-import './App.css'
-import Card from './components/Card/Card'
+import './App.css';
+import Card from './components/Card/Card';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
   return (
     <>
 
-      <Card/>
+      <div className='container-app'>
+        <Card />
+        <Footer />
+      </div>
+
       
     </>
   )

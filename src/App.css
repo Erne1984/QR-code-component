@@ -1,0 +1,9 @@
+.container-app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 95% 5%;
+    align-items: center;
+    justify-items: center;
+    height: 98vh;
+    margin: 0;
+}
